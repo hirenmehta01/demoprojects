@@ -1,0 +1,13 @@
+D:\Projects\SampleMongoDB\SampleMongoDB\bin\Debug\SampleMongoDB.exe.config
+D:\Projects\SampleMongoDB\SampleMongoDB\obj\Debug\SampleMongoDB.csprojResolveAssemblyReference.cache
+D:\Projects\SampleMongoDB\SampleMongoDB\bin\Debug\SampleMongoDB.exe
+D:\Projects\SampleMongoDB\SampleMongoDB\bin\Debug\SampleMongoDB.pdb
+D:\Projects\SampleMongoDB\SampleMongoDB\bin\Debug\MongoDB.Bson.dll
+D:\Projects\SampleMongoDB\SampleMongoDB\bin\Debug\MongoDB.Driver.Core.dll
+D:\Projects\SampleMongoDB\SampleMongoDB\bin\Debug\MongoDB.Driver.dll
+D:\Projects\SampleMongoDB\SampleMongoDB\bin\Debug\MongoDB.Bson.xml
+D:\Projects\SampleMongoDB\SampleMongoDB\bin\Debug\MongoDB.Driver.xml
+D:\Projects\SampleMongoDB\SampleMongoDB\obj\Debug\SampleMongoDB.exe
+D:\Projects\SampleMongoDB\SampleMongoDB\obj\Debug\SampleMongoDB.pdb
+D:\Projects\SampleMongoDB\SampleMongoDB\bin\Debug\Microsoft.ServiceBus.dll
+D:\Projects\SampleMongoDB\SampleMongoDB\bin\Debug\Microsoft.ServiceBus.xml
