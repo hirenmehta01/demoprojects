@@ -1,0 +1,42 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Welcome To Hi App" Height="426.315" Width="580.264" Visibility="Visible" WindowStyle="None" HorizontalContentAlignment="Stretch" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Hidden" VerticalContentAlignment="Stretch">
+    <Window.Effect>
+        <DropShadowEffect/>
+    </Window.Effect>
+    <Grid Margin="0,-28,387,231">
+        <Rectangle Fill="Beige" Margin="288,96,-251,-20" Height="116" VerticalAlignment="Top"></Rectangle>
+        <Rectangle Fill="Bisque" Margin="115,96,-84,-10"></Rectangle>
+        <Rectangle Fill="BlanchedAlmond" Margin="115,231,-87,-153" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.789"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="1.302"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="BlanchedAlmond" Margin="290,231,-251,-153" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.789"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="1.302"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Canvas HorizontalAlignment="Left" Height="42" Margin="0,26,-389,0"
+                VerticalAlignment="Top" Width="574" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" SnapsToDevicePixels="True">
+            <TextBlock Text="Welcome To Hi App" Height="29" Width="184"
+            FontSize="18" FontFamily="Verdana" FontStyle="Normal" Canvas.Left="10" Canvas.Top="10"/>
+        </Canvas>
+
+    </Grid>
+</Window>
