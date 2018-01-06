@@ -1,0 +1,49 @@
+<div class='panel panel-primary' style="margin-top:70px;">
+    <div class='panel-heading'>
+        {{pageTitle}}
+    </div>
+    <div class='panel-body'>
+        <div class='row'>
+            <div class='col-md-2'>Filter by:</div>
+            <div class='col-md-4'>
+                <input type='text' />
+            </div>
+        </div>
+        <div class='table-responsive'>
+            <table class='table'
+              *ngIf='products && products.length'>
+                <thead>
+                    <tr>
+                        <th>
+                            <button class='btn btn-primary'
+                                >
+                                Show Image
+                            </button>
+                        </th>
+                        <th>Product</th>
+                        <th>Code</th>
+                        <th>Available</th>
+                        <th>Price</th>
+                        <th>5 Star Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let Product of products">
+                        <td>
+                            <img 
+                            [src]='Product.imageUrl'
+                            [title]='Product.productName'
+                            [style.width.px]='imageWidth'
+                            [style.margin.px]='imageMargin'/>
+                        </td>
+                        <td>{{Product.productName}}</td>
+                        <td>{{Product.productCode}}</td>
+                        <td>{{Product.releaseDate}}</td>
+                        <td>{{Product.price}}</td>
+                        <td>{{Product.starRating}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

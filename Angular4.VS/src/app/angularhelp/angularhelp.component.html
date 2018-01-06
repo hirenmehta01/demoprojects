@@ -1,0 +1,19 @@
+﻿<div class='panel panel-primary' style="margin-top:70px;">
+    <div class='panel-heading'>
+        Angular Help
+    </div>
+    <div class='panel-body'>
+        <div class='row'>
+            This is angular help page.
+            If you see this, then routing running fine.
+            If you see links in menu, then <b>usefullLink.service</b> service working fine. Links should be clickble.
+        </div>
+        <div class="row">
+            <ul>
+                <li *ngFor="let link of LinkList">
+                    <a [href]="link.href">{{link.name}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
